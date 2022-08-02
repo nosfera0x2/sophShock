@@ -20,7 +20,7 @@ For testing purposes only, advised not to run this in a public facing manner.
 python -c 'import pty; pty.spawn("/bin/bash")'
 
 # switch to user with sudo privileges
- (will add recon file with pw for sophy user in next update)
+Perhaps one of the users has something interesting?
 
 # find files with SUID bit set
 find / -perm -4000 2>/dev/null
