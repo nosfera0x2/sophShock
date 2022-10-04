@@ -8,7 +8,7 @@ echo '<title>Sophy's Lair</title>'
 echo '</head>'
 echo '<body>'
 echo '<h1>So Underutilized In Departments</h1><p>'
-echo 'I get all my knowlege from <b>INTELIX</b>.<p>'
+echo 'I get all my knowlege from INTELIX<p>'
 echo '</body>'
 echo '</html>'
 exit 0
