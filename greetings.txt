@@ -1,0 +1,6 @@
+Hello whoever you are,
+
+You are now www-data, a user with lousy privileges.
+Good luck getting anything done around here...
+
+I suggest you "getent" together and find someone who can SUrely DO something around here.
