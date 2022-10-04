@@ -21,6 +21,8 @@ python -c 'import pty; pty.spawn("/bin/bash")'
 
 # switch to user with sudo privileges
 Perhaps one of the users has something interesting?
+getent group sudo
+
 
 # find files with SUID bit set
 find / -perm -4000 2>/dev/null
