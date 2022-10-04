@@ -57,8 +57,6 @@ RUN useradd -d /home/sophy \
     -p "$(openssl passwd -1 -salt salt intelix)" sophy
 RUN usermod -aG sudo sophy && echo "sophy ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/sophy
 
-RUN apt-get upgrade -y
-
 EXPOSE 80
 
 
