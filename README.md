@@ -4,6 +4,8 @@ This image is for generating Sophos Linux Sensor detections.
 For testing purposes only, advised not to run this in a public facing manner.
 
 #Walk Thru
+docker build . -t <name_of_container:tag>
+docker run -dit -p 8080:80 --privileged <name_of_container:tag>
 
 #Metasploit:
 - search shellshock
