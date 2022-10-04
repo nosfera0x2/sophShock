@@ -34,11 +34,10 @@ RUN sudo chmod u+s /bin/mv
 RUN mkdir /var/run/apache2
 
 ADD cgi-bin/shockme.cgi /usr/lib/cgi-bin/
-ADD cgi-bin/sophyslair.cgi /usr/lib/cgi-bin/
+ADD sophyslair.html /var/www/html/
 ADD greetings.txt /usr/lib/cgi-bin/
 ADD escape.sh /
 RUN chmod +x /usr/lib/cgi-bin/shockme.cgi
-RUN chmod +x /usr/lib/cgi-bin/sophyslair.cgi
 RUN chmod +x escape.sh
 
 RUN a2enmod cgid
