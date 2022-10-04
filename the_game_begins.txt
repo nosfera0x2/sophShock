@@ -1,0 +1,6 @@
+Of course I knew this site would be vulnerable! 
+This stupid Linux Sysadmin will never even know we are here.
+After all, we aren't using any malicious files, and they care way too much about "performance" to be scanning for them!
+
+Feel free to switch to a superior user.
+Learn more at http://0.0.0.0/cgi-bin/sophyslair.cgi
