@@ -50,6 +50,7 @@ RUN wget --no-check-certificate https://ftp.gnu.org/gnu/bash/bash-4.3.tar.gz && 
     make install
 RUN mkdir /usr/share/shellshock
 WORKDIR /usr/share/shellshock
+
 RUN wget https://storageaccountvseeast.blob.core.windows.net/spenblob/exploit-1.c
 RUN wget https://storageaccountvseeast.blob.core.windows.net/spenblob/exploit-2.c
 
@@ -57,6 +58,7 @@ RUN useradd -d /home/sophy \
     -ms /usr/local/bin/bash \
     -p "$(openssl passwd -1 -salt salt intelix)" sophy
 RUN usermod -aG sudo sophy && echo "sophy ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/sophy
+ADD the_game_begins.txt /home/sophy/
 
 EXPOSE 80
 
